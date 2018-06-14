@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="iBY4At" name="MotionPhysicsSimulator" projectType="guiapp"
+              jucerVersion="5.3.2">
+  <MAINGROUP id="V3H9iq" name="MotionPhysicsSimulator">
+    <GROUP id="{D7CF49D7-B452-9A17-1E24-39808C516F0A}" name="Resources">
+      <FILE id="eXqYA7" name="default.mpsLayout" compile="0" resource="1"
+            file="Resources/default.mpsLayout"/>
+    </GROUP>
+    <GROUP id="{F35BF36F-47AA-13B0-DB46-85CBC6212B57}" name="Source">
+      <FILE id="kVZKw0" name="Vizualizer.cpp" compile="1" resource="0" file="Source/Vizualizer.cpp"/>
+      <FILE id="C2CoQt" name="PhysicsCC.cpp" compile="1" resource="0" file="Source/PhysicsCC.cpp"/>
+      <FILE id="CslH6J" name="PhysicsCC.h" compile="0" resource="0" file="Source/PhysicsCC.h"/>
+      <FILE id="S9Va4p" name="Vizualizer.h" compile="0" resource="0" file="Source/Vizualizer.h"/>
+      <FILE id="w4RQSC" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="DEyAsa" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="RHKOpS" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_timeline" path="../../JUCE Modules"/>
+        <MODULEPATH id="juce_osc" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_organicui" path="../../JUCE Modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_timeline" path="../../JUCE Modules"/>
+        <MODULEPATH id="juce_osc" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_organicui" path="../../JUCE Modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_organicui" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_timeline" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

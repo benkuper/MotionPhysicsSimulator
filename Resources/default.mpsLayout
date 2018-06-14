@@ -1,0 +1,60 @@
+{
+  "mainLayout": {
+    "type": 1,
+    "width": 1041,
+    "height": 515,
+    "direction": 2,
+    "shifters": [
+      {
+        "type": 1,
+        "width": 1041,
+        "height": 515,
+        "direction": 1,
+        "shifters": [
+          {
+            "type": 0,
+            "width": 635,
+            "height": 515,
+            "currentContent": "Vizualizer",
+            "tabs": [
+              {
+                "name": "Vizualizer"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "width": 399,
+            "height": 515,
+            "direction": 2,
+            "shifters": [
+              {
+                "type": 0,
+                "width": 399,
+                "height": 266,
+                "currentContent": "Inspector",
+                "tabs": [
+                  {
+                    "name": "Inspector"
+                  }
+                ]
+              },
+              {
+                "type": 0,
+                "width": 399,
+                "height": 242,
+                "currentContent": "Logger",
+                "tabs": [
+                  {
+                    "name": "Logger"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "windows": null
+}
